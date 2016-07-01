@@ -1,0 +1,254 @@
+
+/*
+<link rel="stylesheet" href="css/Estilo.css">
+font-family: 'Kaushan Script', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Averia Sans Libre', cursive;
+ */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #E8E8E8;
+}
+
+header,.main,footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+a{
+	text-decoration: none;
+	color: #6B9FFF;
+}
+
+/*header_Titulo*/
+.titulo{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 80px;
+	text-align: left;
+	width: auto;
+	background:-webkit-gradient(linear, 100% 0%, 22% 100%, from(#E8E8E8), to(#3F82FF));
+	border-top-left-radius:75px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:75px;
+	opacity: 0.85;
+}
+
+.titulo a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+/*Header_nav*/
+
+header nav{
+	background-color: #6B9FFF;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+header nav ul{
+	list-style: none;
+	border-radius: 20px;
+}
+
+header nav ul li{
+	float: left;
+	border-radius: 20px;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	font-family: 'Averia Sans Libre', cursive;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+header nav ul li a:hover{
+	padding: 10px 20px;
+	font-family: 'Averia Sans Libre', cursive;
+	color: white;
+	background-color: #4C8BFF;
+	border-radius: 20px;
+}
+
+/*cuerpo*/
+.main .aritculos{
+	max-width: 70%;
+	float: left;
+}
+
+.titulo_article{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+	width: 600px;
+	max-width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-left: -5px;
+	border-top-right-radius:80px;
+	border-top-left-radius:80px;
+	border-bottom-right-radius:80px; 
+	border-bottom-left-radius:80px;
+	background-color: #3F82FF;
+	opacity: 0.85;
+}
+
+.subtitulo_article {
+	font-family: 'Finger Paint', cursive;
+	font-size: 20px;
+	width: 600px;
+	max-width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-left: -5px;
+	border-top-right-radius:80px;
+	border-top-left-radius:30px;
+	border-bottom-right-radius:0px; 
+	border-bottom-left-radius:0px;
+	background-color: #3F82FF;
+	opacity: 0.85;
+}
+
+.parrafo_article{
+	font-family: 'Averia Sans Libre', cursive;
+	text-align: justify;
+	background-color: #FFFFFF;
+	width: 600px;
+	float: left;
+	max-width: 68.5%;
+	margin-right: 1.5%;
+	border-top-right-radius:40px;
+	border-top-left-radius:30px;
+	padding: 0px 5px 5px 5px;
+}
+
+.imagen{
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+
+.imagen img{
+	width: 100%;
+}
+
+.nino{
+	display: inline-block;
+	float: left;
+	width: 45%;
+ 	margin: 10px;
+ 	padding: 0.2%;
+ 	box-shadow: 0px 3px #3F82FF;
+}
+
+.imagen_noticia img{
+	width: 100%;
+}
+
+.descripcion_noticia{
+	font-size: 40px;
+}
+
+.prox {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 400%;
+	text-align: center;
+	width: 100%;
+	color: #3F82FF;
+	padding: 150px 5px;
+}
+
+.fb_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.wsp_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.inst_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.tw_logo{
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+	float: left;
+}
+
+/*aside*/
+aside{
+	width: 30%;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-left: 5%;
+	box-sizing:border-box;
+}
+
+.link a{
+	border-radius: 10px;
+}
+
+.facebook {
+	padding: 45% 30% 45% 10%;
+	margin-left: 30%;
+	margin-bottom: 3px;
+	max-width: 30%;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 220%;
+	text-align: center;
+	background-color: #3b5998;
+	border-radius: 0.3%;
+	color: #FFFFFF;
+	border-bottom: 1px solid #29487d;;
+}
+
+.twitter {
+	padding: 45% 30% 45% 10%;
+	margin-left: 30%;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	max-width: 30%;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 220%;
+	text-align: center;
+	background-image: url(../imagen/tw.png);
+	background-attachment: fixed;
+	background-size: 100%;
+	border-radius: 0.3%;
+	color: #FFFFFF;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	background-color: #3F82FF;
+	color: #FFFFFF;
+	clear: both;
+	padding: 10px 0px;
+}
+
