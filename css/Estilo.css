@@ -96,7 +96,7 @@ header nav ul li a:hover{
 	margin-left: -5px;
 	border-top-right-radius:80px;
 	border-top-left-radius:80px;
-	border-bottom-right-radius:80px; 
+	border-bottom-right-radius:80px;
 	border-bottom-left-radius:80px;
 	background-color: #3F82FF;
 	opacity: 0.85;
@@ -112,7 +112,7 @@ header nav ul li a:hover{
 	margin-left: -5px;
 	border-top-right-radius:80px;
 	border-top-left-radius:30px;
-	border-bottom-right-radius:0px; 
+	border-bottom-right-radius:0px;
 	border-bottom-left-radius:0px;
 	background-color: #3F82FF;
 	opacity: 0.85;
@@ -201,7 +201,6 @@ aside{
 	float: left;
 	text-align: center;
 	display: block;
-	margin-left: 5%;
 	box-sizing:border-box;
 }
 
@@ -251,4 +250,3 @@ footer{
 	clear: both;
 	padding: 10px 0px;
 }
-
